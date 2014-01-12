@@ -2,11 +2,13 @@
 -@ val headline: String = title
 -@ val body: String
 
-!!!
+!!! 5
 html
   head
     title= title
+    link(type='text/css' rel='stylesheet' href='/stylesheets/bootstrap.min.css')
   body
     #content
       h1= headline
       != body
+    script(type='text/javascript' src='javascripts/bootstrap.min.js')

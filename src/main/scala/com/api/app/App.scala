@@ -5,13 +5,21 @@ import scalate.ScalateSupport
 
 class App extends SubeAlMetroApiStack {
 
+	// admin
   get("/") {
-    <html>
-      <body>
-        <h1>Hello, world!</h1>
-        Say <a href="hello-scalate">hello to Scalate</a>.
-      </body>
-    </html>
+    contentType="text/html"
+    jade("index") // views
+  } 
+
+  // login
+  get("/ingresar") {
+    contentType="text/html"
+    jade("index")
+  }
+
+  get("/administracion") {
+    contentType="text/html"
+    jade("index")
   }
   
 }
