@@ -1,9 +1,9 @@
-# Sube al Metro Api #
+# Monedas Api #
 
 ## Build & Run ##
 
 ```sh
-$ cd Sube_al_Metro_Api
+$ cd monedas-api
 $ ./sbt
 > container:start
 > browse
