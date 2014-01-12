@@ -1,9 +1,9 @@
-# Monedas Api #
+# Camaras IP #
 
 ## Build & Run ##
 
 ```sh
-$ cd monedas-api
+$ cd camaras_ip
 $ ./sbt
 > container:start
 > browse
